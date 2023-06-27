@@ -1,7 +1,12 @@
 # CLIENT-SERVER ARCHITECTURE WITH MYSQL
 Project Overview
-
+TASK – Implement a Client Server Architecture using MySQL Database Management System (DBMS).
 ### Steps
+Run the commands after opening up the terminal and connecting to EC2 instance:
+`sudo apt update`
+`sudo apt upgrade`
+
+
 
 * Create and configure two Linux-based virtual servers (EC2 instances in AWS).
 
