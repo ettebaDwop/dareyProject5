@@ -1,8 +1,16 @@
 # CLIENT-SERVER ARCHITECTURE WITH MYSQL
 ### Project Overview
 In this project our task would be to implement a Client Server Architecture using MySQL Database Management System (DBMS).
-Here two EC2 virtual servers would be located in the same local virtual network, so that they can communicate to each other using local IP addresses.
-### 
+Here two AWS EC2 virtual servers (with one serving as the client and the other as a  server) would be located in the same local virtual network, so that they can communicate to each other using local IP addresses.
+
+### Prerequisites
+In this project you will implement a solution that consists of following components:
+Infrastructure: AWS
+Mysql Server: Ubuntu 22.04 + MySQL
+Client Server: Ubuntu 22.04 + MySQL
+Terminal: Windows Powershell
+Code Repository: GitHub 
+
 ### Implementation
 Run the commands after opening up the terminal and connecting to EC2 instance:
 
