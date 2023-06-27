@@ -1,8 +1,9 @@
 # CLIENT-SERVER ARCHITECTURE WITH MYSQL
-Project Overview
-TASK – Implement a Client Server Architecture using MySQL Database Management System (DBMS).
-
-### Steps
+### Project Overview
+In this project our task would be to implement a Client Server Architecture using MySQL Database Management System (DBMS).
+Here two EC2 virtual servers would be located in the same local virtual network, so that they can communicate to each other using local IP addresses.
+### 
+### Implementation
 Run the commands after opening up the terminal and connecting to EC2 instance:
 
 `sudo apt update`
@@ -75,9 +76,8 @@ To check if we can connect successfully and remotely to the  MySQL server, we wi
 Now we will go to mysql client server and try to access the "project5 and project5_v2"  databases created on mysql server.
 
 `Show databases;`
-![Screenshot (395)](https://github.com/ettebaDwop/dareyProject5/assets/7973831/586d66f0-9640-4335-ac80-f54179ef4e90)
 
-
+![Screenshot (396)](https://github.com/ettebaDwop/dareyProject5/assets/7973831/25061a37-eb65-405b-8dad-1efb3395c578)
 
 
 
