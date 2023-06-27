@@ -14,9 +14,10 @@ To implement this  solution, the following components will be used:
 ### Implementation
 Run the commands after opening up the terminal and connecting to EC2 instance:
 
-    `sudo apt update`
-    
-    `sudo apt upgrade`
+ ```
+   sudo apt update
+   sudo apt upgrade
+ ```
 
 * Create and configure two Linux-based virtual servers (EC2 instances in AWS).
 
@@ -35,7 +36,7 @@ Run the commands after opening up the terminal and connecting to EC2 instance:
 
  - To open mysql server run:
    
-       `sudo mysql`      
+   `sudo mysql`      
 
 ![Screenshot (379)](https://github.com/ettebaDwop/dareyProject5/assets/7973831/92172f0c-eb03-4ade-bd2c-4258c12c17be)
   
@@ -55,7 +56,8 @@ Replace bind-address  = ‘127.0.0.1’ to bind-address = ‘0.0.0.0’
   
 ![Screenshot (387)](https://github.com/ettebaDwop/dareyProject5/assets/7973831/808ff608-87f6-4670-8a59-175c317c3feb)
 
-- Restart Mysql 
+- Restart Mysql
+  
   `sudo service mysql restart`
 
 - Create user on the mysql server and grant privilleges
@@ -77,7 +79,7 @@ To check if we can connect successfully and remotely to the  MySQL server, we wi
  
  `CREATE DATABASE project5_v2;`
 
-Now we will go to mysql client server and try to access the "project5 and project5_v2"  databases created on mysql server.
+Now we will go to mysql client server terminal and try to access the "project5 and project5_v2"  databases created on mysql server.
 
 `Show databases;`
 
